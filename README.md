@@ -12,7 +12,9 @@ This project employs the YOLOv4 architecture for object detection. The key compo
 - **Path Aggregation Network (PAN):** Aggregates features across multiple levels to improve the model's ability to detect objects at different scales.
 - **YOLOv4 Head:** Generates the final bounding boxes and class predictions.
 
-The architecture of YOLOv4, as implemented in this project, is illustrated in the following diagram (Figure 1).
+The architecture of YOLOv4, as implemented in this project, is illustrated in the following diagram (Figure).
+![image](https://github.com/user-attachments/assets/a105f287-5ff0-4ea4-a25b-b7e11efe6f0d)
+
 
 ## Dataset
 
