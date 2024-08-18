@@ -18,8 +18,6 @@ The architecture of YOLOv4, as implemented in this project, is illustrated in th
 
 ## Dataset
 
-### Dataset
-
 For this project, we utilized the **COCO.NAMES** dataset, a comprehensive resource widely recognized in the field of computer vision for image classification and object detection tasks. The COCO.NAMES dataset is designed for large-scale object recognition, segmentation, and labeling, featuring over 330,000 images annotated with 80 different object categories. Each image is also accompanied by five captions that describe the scene, providing rich contextual information for training models.
 
 The extensive diversity and detailed annotations of the COCO.NAMES dataset make it an essential tool for developing and evaluating state-of-the-art object recognition and segmentation models. In our project, this dataset was pivotal for training the neural network, enabling precise identification of object categories and improving the overall accuracy of our detection system.
