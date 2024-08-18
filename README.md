@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ExactDetect: YOLOv4's Accurate Vision is a deep learning-based project designed for real-time object detection and tracking. This project leverages a scaled YOLOv4 model, optimized for accuracy and speed, to effectively identify and track objects in images and videos. The project is developed with a focus on small object detection while maintaining a lightweight architecture suitable for embedded devices.
+**ExactDetect: YOLOv4's Accurate Vision** enhances object detection by combining object categorization and localization in a single model. Leveraging YOLOv4 with the CSPDarkNet-53 backbone, this project improves detection accuracy and speed compared to traditional ResNet-based architectures. Trained on the COCO.NAMES dataset, which includes over 330,000 images across 80 categories, **ExactDetect** delivers superior performance, particularly in detecting larger objects with high confidence. This makes it an ideal solution for real-time applications requiring precise object detection.
 
 ## Proposed Methodology
 
@@ -18,7 +18,11 @@ The architecture of YOLOv4, as implemented in this project, is illustrated in th
 
 ## Dataset
 
-The project utilizes the **Microsoft COCO dataset**, a benchmark in computer vision with over 330,000 images across 80 object categories. This dataset is used for both training and evaluating the YOLOv4 model.
+### Dataset
+
+For this project, we utilized the **COCO.NAMES** dataset, a comprehensive resource widely recognized in the field of computer vision for image classification and object detection tasks. The COCO.NAMES dataset is designed for large-scale object recognition, segmentation, and labeling, featuring over 330,000 images annotated with 80 different object categories. Each image is also accompanied by five captions that describe the scene, providing rich contextual information for training models.
+
+The extensive diversity and detailed annotations of the COCO.NAMES dataset make it an essential tool for developing and evaluating state-of-the-art object recognition and segmentation models. In our project, this dataset was pivotal for training the neural network, enabling precise identification of object categories and improving the overall accuracy of our detection system.
 
 ## System Requirements
 
